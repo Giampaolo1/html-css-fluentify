@@ -1,0 +1,157 @@
+/*  REGOLE GEN DI PAGINA  */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* CONT GLOBALE */
+
+.container {
+  width: 70vw;
+  margin:auto;
+}
+
+  /*  HEADER  */
+  header {
+  height: 150px;
+  background-color: GREY; /* debug */
+  }
+
+  /*  SEZIONE DOPO HEADER  */
+  .motto {
+  height: 100px;
+  background-color: LIGHTGREEN; /* debug */
+  }
+
+  /* 3 LOGHI  */
+  .loghi {
+  height: 300px;
+  background-color: lightblue; /* debug */
+  }
+
+    .logo1 {width: 30%;
+    background-color: lightred;
+    height: 100%; /* debug */
+    border: 1px solid black;
+    float: left;
+    }
+
+    .logo2 {width: 30%;
+    background-color: lightred;
+    height: 100%; /* debug */
+    border: 1px solid black;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+    .logo3 {width: 30%;
+    background-color: lightred;
+    height: 100%; /* debug */
+    border: 1px solid black;
+    float: left;
+    }
+
+  /* SCOPRILIVELLO */
+  .scoprilivello {
+  height: 300px;
+  background-color: lightgreen; /* debug */
+  }
+
+  .imglivello {
+  width: 50%;
+  background-color: lightred;
+  height: 100%; /* debug */
+  border: 1px solid black;
+  float: left;
+          }
+  .testolivello {
+  width: 50%;
+  background-color: lightred;
+  height: 100%; /* debug */
+  border: 1px solid black;
+  float: left;
+  }
+
+
+/* STRUTTURA UN PIANO  */
+.strutturaunpiano {
+  height: 100px;
+  background-color: lightblue; /* debug */
+}
+
+/* ONETOONE */
+
+.onetoone {
+  height: 150px;
+  background-color: lightgreen; /* debug */
+}
+
+.imgonetoone {
+  width: 50%;
+  background-color: lightred;
+  height: 100%; /* debug */
+  border: 1px solid black;
+  float: left;
+}
+
+.testoonetoone {
+  width: 50%;
+  background-color: lightred;
+  height: 100%; /* debug */
+  border: 1px solid black;
+  float: left;
+}
+
+/* SOLO INGLESE */
+
+.soloinglese {
+ height: 150px;
+ background-color: lightblue; /* debug */
+}
+
+.imgsoloinglese {
+  width: 50%;
+  background-color: lightred;
+  height: 100%; /* debug */
+  border: 1px solid black;
+  float: left;
+}
+
+.testosoloinglese {
+  width: 50%;
+  background-color: lightred;
+  height: 100%; /* debug */
+  border: 1px solid black;
+  float: left;
+}
+
+/* CI TROVI SU  */
+
+.citrovisu {
+  height: 100px;
+  background-color: lightgreen; /* debug */
+}
+
+/* fai parlare  */
+
+.faiparlare {
+  height: 100px;
+  background-color: lightblue; /* debug */
+}
+
+/* strutturaunpiano2  */
+
+.strutturaunpiano2 {
+  height: 100px;
+  background-color: lightgreen; /* debug */
+}
+
+/* FOOTER  */
+
+footer {
+  height: 100px;
+  background-color: grey;
+}
