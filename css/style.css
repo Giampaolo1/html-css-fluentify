@@ -7,16 +7,57 @@
 }
 
 /* CONT GLOBALE */
-
-.container {
-  width: 70vw;
+  .container {
+  width: 80vw;
   margin:auto;
 }
 
   /*  HEADER  */
   header {
   height: 150px;
-  background-color: GREY; /* debug */
+  background-color: grey;
+  }
+
+  /* NAVBAR PRINCIPALE:  */
+  #mainnav {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+
+  #mainnav::after{
+    content: "";
+    display: table;
+    clear: both;
+    background: lightblue;
+  }
+
+  .navleft{
+    float: left;
+    width: 20%;
+    border: 1px solid black;
+  }
+  .navcenter{
+    float: left;
+    width: 50%;
+    border: 1px solid black;
+  }
+  .navright{
+    float: right;
+    width: 30%;
+    border: 1px solid black;
+  }
+
+  #mainnav ul{
+    list-style-type: none
+  }
+  #mainnav li {
+    display: inline-block;
+  }
+  #mainnav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
   }
 
   /*  SEZIONE DOPO HEADER  */
